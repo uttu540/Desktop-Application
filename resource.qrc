@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="Image">
+    <file>project-management.svg</file>
+    <file>phone 1.png</file>
+    <file>person.svg</file>
+    <file>lock.svg</file>
+    <file>phone.svg</file>
+    <file>email.svg</file>
+    <file>exit.svg</file>
+    <file>plus 1.png</file>
+    <file>plus.svg</file>
+  </qresource>
+  <qresource prefix="URl"/>
+</RCC>

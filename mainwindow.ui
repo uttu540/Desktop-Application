@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">* {background-color: qlineargradient(spread:pad, x1:0.523045, y1:0, x2:0.522, y2:0.994318, stop:0 rgba(6, 136, 165, 255), stop:1 rgba(5, 100, 189, 155))}</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>2884</width>
+      <height>2052</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>2880</width>
+          <height>2048</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QScrollArea { color: blue }</string>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>505</x>
+           <y>210</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Montserrat</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">* {position: absolute;
+width: 169.27px;
+height: 50.9px;
+left: 360.6px;
+top: 436.84px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 44px;
+
+color: #FFFFFF;}</string>
+         </property>
+         <property name="text">
+          <string>Project 2</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>455</x>
+           <y>450</y>
+           <width>171</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Montserrat</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">* {position: absolute;
+width: 169.27px;
+height: 50.9px;
+left: 360.6px;
+top: 436.84px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 44px;
+
+color: #FFFFFF;}</string>
+         </property>
+         <property name="text">
+          <string>Create New Project</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>225</x>
+           <y>210</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Montserrat</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">* {position: absolute;
+width: 169.27px;
+height: 50.9px;
+left: 360.6px;
+top: 436.84px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 44px;
+
+color: #FFFFFF;}</string>
+         </property>
+         <property name="text">
+          <string>Project 1</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>225</x>
+           <y>450</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Montserrat</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">* {position: absolute;
+width: 169.27px;
+height: 50.9px;
+left: 360.6px;
+top: 436.84px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 44px;
+
+color: #FFFFFF;}</string>
+         </property>
+         <property name="text">
+          <string>Project 3</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>198</x>
+           <y>100</y>
+           <width>121</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*{position: absolute;
+width: 230.6px;
+height: 230.6px;
+left: 329.93px;
+top: 623.01px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 15px;}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Qt/Resource.qrc">
+           <normaloff>:/Image/project-management.svg</normaloff>:/Image/project-management.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>479</x>
+           <y>100</y>
+           <width>121</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*{position: absolute;
+width: 230.6px;
+height: 230.6px;
+left: 329.93px;
+top: 623.01px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 15px;}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Qt/Resource.qrc">
+           <normaloff>:/Image/project-management.svg</normaloff>:/Image/project-management.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>481</x>
+           <y>340</y>
+           <width>121</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*{position: absolute;
+width: 230.6px;
+height: 230.6px;
+left: 329.93px;
+top: 623.01px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 15px;}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Qt/Resource.qrc">
+           <normaloff>:/Image/project-management.svg</normaloff>:/Image/project-management.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>340</y>
+           <width>121</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*{position: absolute;
+width: 230.6px;
+height: 230.6px;
+left: 329.93px;
+top: 623.01px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 15px;}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Qt/Resource.qrc">
+           <normaloff>:/Image/project-management.svg</normaloff>:/Image/project-management.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>835</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">* { background-color: rgb(19, 173, 207) }</string>
+   </property>
+   <widget class="QMenu" name="menuFiles">
+    <property name="styleSheet">
+     <string notr="true">a{qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(6, 136, 165, 255), stop:1 rgba(129, 129, 129, 255))}</string>
+    </property>
+    <property name="title">
+     <string>Files</string>
+    </property>
+    <addaction name="actionAdd_a_Project"/>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <addaction name="menuFiles"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdd_a_Project">
+   <property name="icon">
+    <iconset>
+     <normalon>:/Image/plus 1.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Add a Project</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="icon">
+    <iconset>
+     <normalon>:/Image/exit.svg</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../Qt/Resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_3</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>532</x>
+     <y>433</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>540</x>
+     <y>432</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

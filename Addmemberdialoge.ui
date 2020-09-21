@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {background-color: qlineargradient(spread:pad, x1:0.523045, y1:0, x2:0.522, y2:0.994318, stop:0 rgba(6, 136, 165, 255), stop:1 rgba(5, 100, 189, 155))}</string>
+  </property>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>20</y>
+     <width>170</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{position: absolute;
+width: 217.37px;
+height: 88.31px;
+left: 606.99px;
+top: 269.2px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size:22px;
+line-height: 78px;
+
+color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add a Member</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{position: absolute;
+width: 217.37px;
+height: 88.31px;
+left: 606.99px;
+top: 269.2px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size:20px;
+line-height: 78px;
+
+color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Utkarsh Agrawal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>89</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../../Qt/Resource.qrc">:/Image/plus 1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{position: absolute;
+width: 217.37px;
+height: 88.31px;
+left: 606.99px;
+top: 269.2px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size:20px;
+line-height: 78px;
+
+color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Shanu Chourasiya</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../../Qt/Resource.qrc">:/Image/plus 1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>223</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{position: absolute;
+width: 217.37px;
+height: 88.31px;
+left: 606.99px;
+top: 269.2px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size:20px;
+line-height: 78px;
+
+color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Vedant Khandelwal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>229</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../../Qt/Resource.qrc">:/Image/plus 1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>401</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../Qt/Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
